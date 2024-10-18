@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>DAKR Solutions Form</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <h1>DAKR Solutions Form</h1>
+    
+    <form th:action="@{/submitForm}" th:object="${user}" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" th:field="*{name}" />
+        <div th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="error"></div>
+        <br>
+        <br>
+
+        <label for="goal">Goal:</label>
+        <input type="text" id="goal" th:field="*{goal}" />
+        <div th:if="${#fields.hasErrors('goal')}" th:errors="*{goal}" class="error"></div>
+        <br>
+        <br>
+
+        <label for="fiveYearRoadmap">Five-Year Roadmap:</label>
+        <input type="text" id="fiveYearRoadmap" th:field="*{fiveYearRoadmap}" />
+        <div th:if="${#fields.hasErrors('fiveYearRoadmap')}" th:errors="*{fiveYearRoadmap}" class="error"></div>
+        <br>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
