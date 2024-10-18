@@ -22,19 +22,19 @@ Error handling for validation failures, which redirects the user back to the for
 
 
 * Technologies Used
-Java 17
-Spring Boot 3.x (Web, JPA)
-Thymeleaf (Template Engine)
-JSTL (JavaServer Pages Standard Tag Library) for form processing
-MySQL for data persistence
-Hibernate for ORM (Object Relational Mapping)
-Maven for project build and dependency management
-CSS for styling
+1.Java 17
+2.Spring Boot 3.x (Web, JPA)
+3.Thymeleaf (Template Engine)
+4.JSTL (JavaServer Pages Standard Tag Library) for form processing
+5.MySQL for data persistence
+6.Hibernate for ORM (Object Relational Mapping)
+7.Maven for project build and dependency management
+8.CSS for styling
 
 
 * Setup and Installation
 Prerequisites
-Java 17 installed.
-Maven installed.
-MySQL installed and running.
-IDE (IntelliJ, Eclipse, or any other Java IDE) for running and editing the code.
+1.Java 17 installed.
+2.Maven installed.
+3.MySQL installed and running.
+4.IDE (IntelliJ, Eclipse, or any other Java IDE) for running and editing the code.
